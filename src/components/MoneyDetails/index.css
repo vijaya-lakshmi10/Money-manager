@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.money-details-container{
+    display: flex;
+    justify-content: space-between;
+}
+.balance-container{
+    height:300px;
+    width:300px;
+    background-color: #ecfccb;
+    border-radius: 10px;
+    border:2px solid #84cc16;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    height:30px;
+    width:30px;
+}
+.balance{
+    color:#475569;
+    font-family: "Roboto";
+    font-size:18px;   
+}
+.balance-amt{
+    color:#475569;
+    font-family: "Roboto";
+    font-size:20px;  
+}
+.income-container{
+    height:300px;
+    width:300px;
+    background-color: #cffafe;
+    border-radius: 10px;
+    border:2px solid  #06b6d4;
+    display: flex;
+    justify-content: space-between;
+
+}
+.income{
+    color:#475569;
+    font-family: "Roboto";
+    font-size:18px;  
+}
+.income-amt{
+    color:#475569;
+    font-family: "Roboto";
+    font-size:20px;
+
+}
+.expenses-container{
+    height:300px;
+    width:300px;
+    background-color: #ede9fe;
+    border-radius: 10px;
+    border:2px solid  #7c3aed;
+    display: flex;
+    justify-content: space-between;
+
+}
+.expenses{
+    color:#475569;
+    font-family: "Roboto";
+    font-size:18px;  
+
+}
+.expenses-amt{
+    color:#475569;
+    font-family: "Roboto";
+    font-size:20px;
+
+}
+@media screen and (max-width:768px){
+    .money-details-container{
+    display: flex;
+    flex-direction: column;
+}
+}
